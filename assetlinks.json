@@ -10,10 +10,18 @@ permalink: .well-known/assetlinks.json
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.nalins.deeplinkssampleexternal",
+      "package_name": "com.example.deeplinkstest",
       "sha256_cert_fingerprints": [
-        "63:B2:1B:36:C0:4E:40:E5:11:00:C2:B9:F9:96:F9:6D:AF:BB:3F:3E:AA:E3:9F:FA:CF:C3:B1:15:42:3A:F3:4C"
+        "75:6F:6C:2B:3D:99:45:F8:EC:97:57:69:75:7F:84:42:9D:7A:70:DE:E7:BD:7E:79:16:6C:FC:81:64:9D:D3:AA"
       ]
+    },
+    "relation_extensions": {
+      "delegate_permission/common.handle_all_urls": {
+        "dynamic_app_link_components": [
+          {"/": "test\\.html"},
+          {"/": "*", "exclude": true}
+        ]
+      }
     }
   }
 ]
