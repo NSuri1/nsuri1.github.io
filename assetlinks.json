@@ -21,6 +21,7 @@ permalink: .well-known/assetlinks.json
           {"/": "/othertest"},
           {"/": "/test.html"},
           {"/": "/pattern.*"},
+          {"/": "/other*"},
           {"/": "*", "exclude": true}
         ]
       }
